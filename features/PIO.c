@@ -3,7 +3,7 @@
 
 // Definição do número de LEDs e pino.
 #define LED_COUNT 25
-#define LED_PIN 10
+#define LED_PIN 7
 
 // Definição de pixel GRB
 struct pixel_t
