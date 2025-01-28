@@ -53,7 +53,12 @@ int main()
                 animaNome();
                 break;
             case '3':
-
+                // Animação Danrlei
+               for (int i = 0; i < 5; i++)
+                {
+                    desenhaMatriz(matrizCarinha[i], 2000, 0.8);
+                }
+                desenhaMatriz(desliga, 0, 0.8);
                 break;
 
             case '4':

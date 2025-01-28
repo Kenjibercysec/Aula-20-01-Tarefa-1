@@ -28,7 +28,7 @@ void menu()
     printf("6 - Aperte # para ligar os LEDs na cor Branca em 20%%\n");
     printf("7 - Aperte 1 ...\n");
     printf("8 - Aperte 2 para Animação de Naila\n");
-    printf("9 - Aperte 3 ...\n");
+    printf("9 - Aperte 3 para Animação de Danrlei\n");
     printf("10 - Aperte 4 ...\n");
     printf("11 - Aperte 5 para Animação de Arthur\n");
     printf("12 - Aperte 6 para Animação de Leonardo: Matrix Reload (poor quality)\n");
