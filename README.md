@@ -167,7 +167,7 @@ Alguns testes foram realizados para garantir o funcionamento correto do projeto:
     </td>
     <td align="center">
       <a href="https://github.com/vitorlemosj" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/89744747?s=400&u=1465ee09f423d1654e8ce40da4cb733282903b03&v=4" width="100px;" alt=""/>
+        <img src="https://avatars.githubusercontent.com/u/192925557?s=400&v=4" width="100px;" alt=""/>
       </a>
       <br /><sub><b> João Vitor Lemos </b></sub>
     </td>
