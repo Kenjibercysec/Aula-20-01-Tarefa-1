@@ -7,7 +7,11 @@
 #include "features/PIO.c"
 #include "features/desenho.c"
 #include "features/funcoes.c"
+<<<<<<< HEAD
 #include "features/New Piskel.c"
+=======
+#include "matriz7.c"
+>>>>>>> matrizIsaias
 
 // Para simular na placa troque o scanf no loop da main
 
@@ -82,12 +86,17 @@ int main()
                 break;
 
             case '7':
+<<<<<<< HEAD
                 // Animação Gustavo Netto
                for (int i = 0; i < 4; i++)
                 {
                     desenhaMatriz(matrizNet[i], 2000, 0.8);
                 }
                 
+=======
+                printf("Iniciando animação de 5 frames (caso 7)...\n");
+                play_led_animation_frame_by_frame(); 
+>>>>>>> matrizIsaias
                 break;
 
             case '8':
