@@ -15,6 +15,7 @@
 #define LED_COUNT 25
 #define LED_PIN 7
 
+
 char tecla;
 
 // teclado

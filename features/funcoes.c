@@ -34,6 +34,6 @@ void menu()
     printf("12 - Aperte 6 para Animação de Leonardo: Matrix Reload (poor quality)\n");
     printf("13 - Aperte 7 ...\n");
     printf("14 - Aperte 8 para Animação de Kenji\n");
-    printf("15 - Aperte 5 ...\n");
+    printf("15 - Aperte 9 ...\n");
     printf("Obs: É necessário segurar a brevemente para o comando ser registrado\n");
 }

@@ -2,6 +2,8 @@
 #include "pico/stdlib.h"
 #include "hardware/timer.h"
 
+#define Buzzer_Pin 13
+
 uint _columns[4];
 uint _rows[4];
 char _matrix_values[16];
@@ -50,6 +52,10 @@ void pico_keypad_init(const uint columns[4], const uint rows[4])
 
         all_columns_mask = all_columns_mask + (1 << _columns[i]);
         column_mask[i] = 1 << _columns[i];
+
+        gpio_init(Buzzer_Pin);
+        gpio_set_dir(Buzzer_Pin, GPIO_OUT);
+        gpio_put(Buzzer_Pin, 0);
     }
 }
 
@@ -62,7 +68,7 @@ char pico_keypad_get_key(void)
 
     cols = gpio_get_all();
     cols = cols & all_columns_mask;
-    //imprimir_binario_teclado(cols); Para debug do código
+    // imprimir_binario_teclado(cols); Para debug do código
 
     if (cols == 0x0)
     {
@@ -121,5 +127,3 @@ char pico_keypad_get_key(void)
         return 0;
     }
 }
-
-
