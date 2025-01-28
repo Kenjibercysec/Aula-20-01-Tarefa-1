@@ -80,6 +80,7 @@ O projeto deve cumprir os seguintes requisitos:
 - **Tecla 2**: Inicia uma animação.
 - **Tecla 5**: Inicia uma animação.
 - **Tecla 6**: Inicia uma animação com efeito de transição de cores ("Matrix Reload").
+- **Tecla 7**: Inicia uma animação.
 - **Tecla 8**: Inicia uma animação.
 - **Tecla 9**: Ação para animação não detalhada no código.
 - **Teclado Matricial 4x4**: Captura as teclas pressionadas e executa as ações correspondentes.
@@ -156,6 +157,12 @@ Alguns testes foram realizados para garantir o funcionamento correto do projeto:
         <img src="https://avatars.githubusercontent.com/u/143664389?v=4" width="100px;" alt=""/>
       </a>
       <br /><sub><b> Danilo Silveira </b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Mendespro" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/89744747?s=400&u=1465ee09f423d1654e8ce40da4cb733282903b03&v=4" width="100px;" alt=""/>
+      </a>
+      <br /><sub><b> Isaias Mendes </b></sub>
     </td>
   </tr>
 </table>
