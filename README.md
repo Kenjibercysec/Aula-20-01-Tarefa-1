@@ -76,9 +76,8 @@ O projeto deve cumprir os seguintes requisitos:
 - **Tecla D**: Liga todos os LEDs na cor verde com 50% de luminosidade.
 - **Tecla #**: Liga todos os LEDs na cor branca com 20% de luminosidade.
 - **Tecla * (asterisco)**: Reinicia o Raspberry Pi Pico W para o modo de gravação.
-- **Tecla 1** : .
+- **Tecla 1** a **Tecla 4**: .
 - **Tecla 2**: Inicia uma animação.
-- **Tecla 3**: Inicia uma animação.
 - **Tecla 5**: Inicia uma animação.
 - **Tecla 6**: Inicia uma animação com efeito de transição de cores ("Matrix Reload").
 - **Tecla 8**: Inicia uma animação.
@@ -157,12 +156,6 @@ Alguns testes foram realizados para garantir o funcionamento correto do projeto:
         <img src="https://avatars.githubusercontent.com/u/143664389?v=4" width="100px;" alt=""/>
       </a>
       <br /><sub><b> Danilo Silveira </b></sub>
-    </td>    
-    <td align="center">
-      <a href="https://github.com/danrleiaraujo" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/44043273?v=4" width="100px;" alt=""/>
-      </a>
-      <br /><sub><b> Danrlei Araujo </b></sub>
     </td>
   </tr>
 </table>
